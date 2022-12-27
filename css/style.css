@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-color: #323975;
+    background-image: url("../pictures/northern_lights.jpg");
     color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Pacifico', cursive;
     height: 100vh;
     overflow: hidden;
     margin: 0;
@@ -29,5 +29,15 @@ body {
 @keyframes fall {
     to {
         transform: translateY(105vh);
+    }
+}
+
+.text-area * {
+    font-size: 48px;
+}
+
+@media screen and (max-width: 1000px) {
+    .text-area * {
+        font-size: 24px;
     }
 }
